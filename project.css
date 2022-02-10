@@ -108,87 +108,353 @@ body{
 .header_title{
     margin: 670px 0px 100px 45px;
     color: white;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 55px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
 
-@media (max-width:1025px) {
+.main{
+    flex: 1 1 auto;
+}
+
+.block_work{
+    margin: 100px 0px 180px 250px;
+    padding-right:15px ;
+}
+
+.block_napr{
+    width: 450px;
+    display: flex;
+}
+
+.block_napr:not(last-child){
+    margin-right: 81px;
+    margin-bottom: 60px;
+}
+
+.main_title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.title_work{
+    font-size: 28px;
+    font-style: normal;
+    line-height: 31px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.text_work{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.num{
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 77px;
+    letter-spacing: -0.08em;
+    color: rgba(0, 0, 0, 0.15);
+    margin-right: 24px;
+}
+
+.napr{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_about{
+    margin:0px 140px 0px 250px ;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 99px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.text_about{
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: -0.02em;
+   text-align: left;
+   width: 488px;
+}
+
+.main-text{
+    margin: 21px 0px 60px 250px;
+}
+
+.about_main_block{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_main-1{  
+    margin: 60px 0px 16px 200px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.title_main-2{
+    margin: 0px 20px 32px 200px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.about_content_block-1{
+    display: flex;
+}
+
+.about_block-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-1{
+    margin: 130px 170px 35px 0px;
+    line-height: 22px;
+    width: 138px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-2{
+    margin-left: 200px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.about-image{
+    margin: 60px 0px 0px 0px;
+}
+
+.about-image-2{
+    margin: 60px 64px 0px 200px;
+}
+
+.title_main-1-2{
+    margin: 60px 0px 16px 0px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.title_main-2-2{
+    margin: 0px 20px 32px 0px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.text-2-2{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.txt{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    font-weight: 500;
+}
+
+.block_help{
+    display: flex;
+}
+
+@media (max-width:1439px){
+    .block_work{
+        margin: 100px 0px 180px 370px;
+        padding-right:15px ;
+    }
+    .text_about{
+        font-size: 20px;
+        line-height: 30px;
+        width: 400px;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 50px;
+        font-size: 48px;
+    }
+    .title_main-2{
+        margin: 0px 20px 32px 50px;
+        font-size: 48px;
+    }
+    .text-1{
+        margin: 130px 30px 35px 0px;
+        width: 200px;
+    }
+    .text-2{
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .about-image-2{
+        margin: 60px 30px 0px 50px;
+    }
+    .text-2-2{
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+}
+
+@media (max-width:1320px){
+    .title_about{
+        margin:0px 100px 0px 150px ;
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .main-text{
+        margin: 21px 0px 60px 150px;
+        font-size: 20px;
+    }
+    .text_about{
+        font-size: 20px;
+        line-height: 30px;
+        width: 400px;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 50px;
+        font-size: 48px;
+    }
+    .title_main-2{
+        margin: 0px 20px 32px 50px;
+        font-size: 48px;
+    }
+    .text-1{
+        margin: 130px 30px 35px 0px;
+        width: 200px;
+    }
+    .text-2{
+        margin-left: 50px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .about-image-2{
+        margin: 60px 30px 0px 50px;
+    }
+    .text-2-2{
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+}
+
+@media (max-width:1090px) {
     .header__menu{
         margin: 0px 0px 0px 80px;
     }
     .header_title{
-        margin: 200px 0px 50px 20px;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 30px;
-    }
-}
-
-@media (max-width:769px) {
-    .header__menu{
-        margin: 0px 0px 0px 50px;
-    }
-    .header_title{
         margin: 150px 0px 50px 20px;
-        font-size: 25px;
+        font-size: 40px;
         font-weight: 700;
+        line-height: 37px;
+    }
+    .block_work{
+        margin: 100px 0px 180px 250px;
+        padding-right:15px ;
+    }
+    .title_about{
+        margin:0px 100px 0px 50px ;
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .main-text{
+        margin: 21px 0px 60px 50px;
+        font-size: 20px;
+    }
+    .text_about{
+        font-size: 20px;
         line-height: 30px;
+        width: 400px;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 280px;
+        font-size: 48px;
     }
-}
-
-@media (max-width:426px) {
-    .header__menu{
-        margin: 0px 0px 0px 20px;
+    .title_main-2{
+        margin: 0px 20px 32px 280px;
+        font-size: 48px;
     }
-    .header__logo{
-        font-size: 17px;
+    .title_main-1-2{
+        margin: 60px 0px 16px 280px;
     }
-    .header__container{
-        margin: 0px 20px 0px 10px;
+    .text-1{
+        margin: 130px 30px 35px 0px;
+        width: 200px;
     }
-    .menu__link{
-        font-size: 17px;
-        line-height: 130%;
+    .text-2{
+        margin-left: 280px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
     }
-    .header_title{
-        margin: 200px 0px 50px 20px;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 30px;
-    }
-}
-
-@media (max-width:351px) {
-    .header__menu{
-        margin: 0px 0px 0px 0px;
-    }
-    .header__container{
-        margin: 0px 20px 0px 10px;
-    }
-    .header_title{
-        margin: 150px 0px 50px 20px;
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 30px;
-    }
-}
-
-@media (min-height: 600px) and (max-width:916px){
-    .header__menu{
-        margin: 0px 0px 0px 0px;
-    }
-    .header__container{
-        margin: 0px 3px;
-    }
-    .header__logo{
-        font-size: 25px;
-    }
-    .menu__link{
-        font-size: 25px;
-        line-height: 150%;
+    .about-image{
+        margin: 60px 0px 0px 280px;
     }
     
+    .about-image-2{
+        margin: 60px 30px 0px 280px;
+    }
+    .text-2-2{
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .block_help{
+        display: flex;
+        margin-left: 280px;
+    }
+    .text-2-2{
+        margin-left: 280px;
+    }
 }
 
 @media (min-width:600px) and (max-width:1023px){
@@ -200,14 +466,530 @@ body{
     }
     .header_title{ 
         margin: 250px 0px 100px 20px;
-        font-size: 35px;
-        font-weight: 700;
+    }
+    .block_work{
+        margin: 100px 0px 180px 170px;
+        padding-right:15px ;
+    }
+    .title_about{
+        margin:0px 100px 0px 200px ;
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .main-text{
+        margin: 21px 0px 20px 200px;
+        font-size: 20px;
+    }
+    .text_about{
+        width: 800px;
+        white-space: pre-line;
+        margin-left: 20px;
+        font-size: 20px;
         line-height: 30px;
+        width: 800px;
+        text-align: center;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 150px;
+        font-size: 48px;
+    }
+    .title_main-2{
+        margin: 0px 20px 32px 150px;
+        font-size: 48px;
+    }
+    .title_main-1-2{
+        margin: 60px 0px 16px 150px;
+    }
+    .text-1{
+        margin: 130px 30px 35px 0px;
+        width: 200px;
+    }
+    .text-2{
+        margin-left: 150px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .about-image{
+        margin: 60px 0px 0px 150px;
+    }
+    
+    .about-image-2{
+        margin: 60px 30px 0px 150px;
+    }
+    .text-2-2{
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .block_help{
+        display: flex;
+        margin-left: 150px;
+    }
+    .text-2-2{
+        margin-left: 150px;
     }
 }
 
-
-.main{
-    flex: 1 1 auto;
+@media (max-width:769px) {
+    .header__menu{
+        margin: 0px 0px 0px 50px;
+    }
+    .header_title{
+        margin: 150px 0px 50px 20px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 37px;
+    }
+    .block_work{
+        margin: 100px 0px 180px 150px;
+        padding-right:15px ;
+    }
+    .block_napr:not(last-child){
+        margin-bottom: 40px;
+    }
+    .main_title{
+        font-size: 40px;
+    }
+    .title_work{
+        font-size: 23px;
+        margin-bottom: 8px;
+        margin-top: 10px;
+    }
+    .text_work{
+        font-size: 18px;
+    }
+    .num{
+        font-size: 60px;
+        margin-right: 24px;
+    }
+    .title_about{
+        margin:0px 100px 0px 40px ;
+        font-size: 60px;
+        line-height: 90px;
+        white-space: pre-line;
+    }
+    .main-text{
+        margin: 21px 0px 20px 40px;
+        font-size: 20px;
+        white-space: pre-line;
+    }
+    .text_about{
+        width: 800px;
+        white-space: pre-line;
+        margin-left: 40px;
+        font-size: 17px;
+        line-height: 25px;
+        width: 800px;
+        text-align: left;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 40px;
+        font-size: 40px;
+    }
+    .title_main-2{
+        margin: 0px 20px 32px 40px;
+        font-size: 40px;
+    }
+    .title_main-1-2{
+        margin: 60px 0px 16px 40px;
+        font-size: 40px;
+    }
+    .title_main-2-2{
+        font-size: 40px;
+    }
+    .text-1{
+        margin: 130px 30px 35px 0px;
+        width: 200px;
+    }
+    .text-2{
+        margin-left: 40px;
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+    }
+    .about-image{
+        margin: 60px 0px 0px 40px;
+    }
+    
+    .about-image-2{
+        margin: 60px 30px 0px 40px;
+    }
+    .text-2-2{
+        font-size: 18px;
+        line-height: 25px;
+        width: 550px;
+        margin-left: 40px;
+    }
+    .block_help{
+        display: flex;
+        margin-left: 40px;
+    }
 }
 
+@media (max-width:599px){
+    .header__container{
+        margin: 0px 0px 0px 15px;
+    }
+    .header__logo{
+        font-size: 23px;
+    }
+    .menu__link{
+        font-size: 23px;
+        line-height: 150%;
+    }
+    .header__menu{
+        margin: 0px 0px 0px 20px;
+    }
+    .header_title{
+        margin: 200px 0px 50px 20px;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 37px;
+    }
+    .block_work{
+        margin: 100px 0px 100px 100px;
+        padding-right:15px ;
+    }
+    .block_napr:not(last-child){
+        margin-bottom: 40px;
+    }
+    .title_about{
+        margin:0px 100px 0px 20px ;
+        font-size: 60px;
+        line-height: 90px;
+        white-space: pre-line;
+    }
+    .main-text{
+        margin: 21px 0px 20px 20px;
+        font-size: 20px;
+        white-space: pre-line;
+    }
+    .text_about{
+        width: 800px;
+        white-space: pre-line;
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 800px;
+        text-align: left;
+     }
+     .title_main-1{  
+        margin: 60px 0px 16px 20px;
+        font-size: 35px;
+    }
+    .title_main-2{
+        margin: 0px 20px 32px 20px;
+        font-size: 35px;
+    }
+    .title_main-1-2{
+        margin: 60px 0px 16px 20px;
+        font-size: 35px;
+    }
+    .title_main-2-2{
+        margin: 0px 20px 32px 0px;
+        font-size: 35px;
+    }
+    .text-1{
+        margin: 130px 0px 25px 0px;
+        width: 200px;
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .txt{
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .text-2{
+        margin-left: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 550px;
+    }
+    .about-image{
+        margin: 60px 0px 0px 20px;
+    }
+    
+    .about-image-2{
+        margin: 60px 30px 0px 20px;
+    }
+    .text-2-2{
+        font-size: 16px;
+        line-height: 20px;
+        width: 550px;
+        margin-left: 20px;
+    }
+    .block_help{
+        display: flex;
+        margin-left: 20px;
+    } 
+}
+
+@media (max-width:518px) {
+    .header__container{
+        margin: 0px 0px 0px 15px;
+    }
+    .header__logo{
+        font-size: 23px;
+    }
+    .menu__link{
+        font-size: 23px;
+        line-height: 150%;
+    }
+    .header__menu{
+        margin: 0px 0px 0px 20px;
+    }
+    .header_title{
+        margin: 200px 0px 50px 20px;
+        font-size: 37px;
+        font-weight: 700;
+        line-height: 37px;
+    }
+    .block_work{
+        margin: 100px 0px 100px 40px;
+        padding-right:15px ;
+    }
+    .block_napr:not(last-child){
+        margin-bottom: 30px;
+    }
+    .main_title{
+        font-size: 40px;
+    }
+    .title_work{
+        font-size: 22px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+    }
+    .text_work{
+        font-size: 17px;
+    }
+    .num{
+        font-size: 60px;
+        margin-right: 24px;
+    }
+    .title_about{
+        margin:0px 100px 0px 8px ;
+        font-size: 40px;
+        line-height: 60px;
+        white-space: pre-line;
+    }
+    .main-text{
+        margin: 10px 0px 20px 8px;
+        font-size: 15px;
+        white-space: pre-line;
+    }
+    .text_about{
+        width: 800px;
+        white-space: pre-line;
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 15px;
+        width: 800px;
+        text-align: left;
+     }
+     .title_main-1{  
+        margin: 30px 0px 0px 8px;
+        font-size: 25px;
+    }
+    .title_main-2{
+        margin: 0px 10px 10px 8px;
+        font-size: 25px;
+    }
+    .title_main-1-2{
+        margin: 30px 0px 6px 8px;
+        font-size: 25px;
+    }
+    .title_main-2-2{
+        margin: 0px 10px 10px 0px;
+        font-size: 25px;
+    }
+    .text-1{
+        margin: 100px 0px 25px 0px;
+        width: 200px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .txt{
+        font-size: 14px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    .text-2{
+        margin-left: 8px;
+        font-size: 14px;
+        line-height: 15px;
+        width: 300px;
+        white-space:pre-line;
+        text-align: left;
+    }
+     .text-2-2{
+        font-size: 14px;
+        line-height:15px;
+        width: 550px;
+        margin-left: 8px;
+        width: 300px;
+        white-space:pre-line;
+        text-align: left;
+    }
+    br{
+        display: none;
+    }
+    .about-image{
+        margin: 20px 0px 0px 8px;
+    }
+    
+    .about-image-2{
+        margin: 20px 30px 0px 8px;
+    }
+   
+    .block_help{
+        display: flex;
+        margin-left: 8px;
+    } 
+}
+
+@media (max-width:361px) {
+    .header__logo{
+        font-size: 20px;
+    }
+    .menu__link{
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .header__menu{
+        margin: 0px 0px 0px 0px;
+    }
+    .header__container{
+        margin: 0px 20px 0px 10px;
+    }
+    .header_title{
+        margin: 150px 0px 50px 20px;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .block_work{
+        margin: 100px 0px 80px 30px;
+        padding-right:15px ;
+    }
+    .block_napr:not(last-child){
+        margin-bottom: 30px;
+    }
+    .main_title{
+        font-size: 40px;
+    }
+    .title_work{
+        font-size: 22px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+    }
+    .text_work{
+        font-size: 17px;
+    }
+    .num{
+        font-size: 60px;
+        margin-right: 24px;
+    }
+    .title_about{
+        margin:0px 50px 0px 0px ;
+        font-size: 35px;
+    }
+    .main-text{
+        margin: 10px 0px 20px 0px;
+    }
+    .text_about{
+        margin-left: 0px;
+     }
+     .title_main-1{  
+        margin: 30px 0px 0px 0px;
+    }
+    .title_main-2{
+        margin: 0px 10px 5px 0px;
+        line-height: 20px;
+    }
+    .title_main-1-2{
+        margin: 30px 0px 0px 0px;
+    }
+    .title_main-2-2{
+        margin: 0px 10px 5px 0px;
+    }
+    .text-1{
+        display: none;
+
+    }
+    .txt{
+        display: none;
+    }
+    .text-2{
+        margin-left: 0px;
+        width: 260px;
+        white-space:pre-line;
+        text-align: left;
+    }
+     .text-2-2{
+        margin-left: 0px;
+        width: 260px;
+    }
+    .about-image{
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .about-image-2{
+        margin: 20px 30px 0px 0px;
+    }
+    .block_help{
+        margin-left: 0px;
+    } 
+}
+
+@media(max-width:300px){
+    .header__logo{
+        font-size: 16px;
+    }
+    .menu__link{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .header__menu{
+        margin: 0px 0px 0px 0px;
+    }
+    .header_title{
+        margin: 150px 0px 50px 20px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .block_work{
+        margin: 100px 0px 80px 10px;
+        padding-right:15px ;
+    }
+    .block_napr:not(last-child){
+        margin-bottom: 30px;
+    }
+    .main_title{
+        font-size: 37px;
+    }
+    .title_work{
+        font-size: 20px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+    }
+    .text_work{
+        font-size: 17px;
+    }
+    .num{
+        font-size: 60px;
+        margin-right: 24px;
+    }
+}
+
+@media(min-width:1921px){
+    .header_title{
+        margin: 670px 0px 100px 45px;
+        font-size: 64px;
+    }
+    .block_work{
+        margin: 100px 0px 180px 400px;
+        padding-right:15px ;
+    }
+}
